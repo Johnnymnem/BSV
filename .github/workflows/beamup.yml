@@ -18,4 +18,5 @@ jobs:
         with:
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           username_github: ${{ secrets.USERNAME_GITHUB }}
+          beamup_host: "a.baby-beamup.club"
           project_name: ${{ secrets.PROJECT_NAME }}
